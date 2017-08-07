@@ -132,7 +132,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "최병구";
+				ORGANIZATIONNAME = withstep;
 				TargetAttributes = {
 					2C4BF0F21F38179200AFF2E0 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -377,7 +377,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.withstep.jinjudr;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = jinjudr;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -394,7 +394,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.withstep.jinjudr;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = jinjudr;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

@@ -15,6 +15,7 @@
 		2C4BF10A1F383E6D00AFF2E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BF1091F383E6D00AFF2E0 /* GoogleService-Info.plist */; };
 		2C4BF10C1F38436100AFF2E0 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4BF10B1F38436100AFF2E0 /* UserNotifications.framework */; };
 		2C4BF10E1F38436C00AFF2E0 /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4BF10D1F38436C00AFF2E0 /* PushKit.framework */; };
+		4BB2CBF61F38A94F00CC6F3D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB2CBF51F38A94F00CC6F3D /* WebKit.framework */; };
 		6F927945D96FDB27D66C608D /* Pods_jinjudr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C741BB877CCDD3140F2FAA4 /* Pods_jinjudr.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		2C4BF1091F383E6D00AFF2E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2C4BF10B1F38436100AFF2E0 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		2C4BF10D1F38436C00AFF2E0 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
+		4BB2CBF51F38A94F00CC6F3D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		5C741BB877CCDD3140F2FAA4 /* Pods_jinjudr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jinjudr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A606E7945839EB62942791 /* Pods-jinjudr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jinjudr.release.xcconfig"; path = "Pods/Target Support Files/Pods-jinjudr/Pods-jinjudr.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BB2CBF61F38A94F00CC6F3D /* WebKit.framework in Frameworks */,
 				2C4BF10E1F38436C00AFF2E0 /* PushKit.framework in Frameworks */,
 				2C4BF10C1F38436100AFF2E0 /* UserNotifications.framework in Frameworks */,
 				6F927945D96FDB27D66C608D /* Pods_jinjudr.framework in Frameworks */,
@@ -52,6 +55,7 @@
 		0F695800FE76317E00ACF62F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4BB2CBF51F38A94F00CC6F3D /* WebKit.framework */,
 				2C4BF10D1F38436C00AFF2E0 /* PushKit.framework */,
 				2C4BF10B1F38436100AFF2E0 /* UserNotifications.framework */,
 				5C741BB877CCDD3140F2FAA4 /* Pods_jinjudr.framework */,

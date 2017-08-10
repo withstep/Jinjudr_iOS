@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  jinjudr
 //
-//  Created by 최병구 on 2017. 8. 7..
-//  Copyright © 2017년 최병구. All rights reserved.
+//  Created by ByungGu Choi on 2017. 8. 11..
+//  Copyright © 2017년 ByungGu Choi. All rights reserved.
 //
 
 import UIKit
@@ -30,17 +30,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         /**************************** Push service start *****************************/
         // iOS 10 support
-        if #available(iOS 10, *) {
+        if #available(iOS 10.0, *) {
             UNUserNotificationCenter.current().requestAuthorization(options:[.badge, .alert, .sound]){ (granted, error) in }
             application.registerForRemoteNotifications()
         }
             // iOS 9 support
-        else if #available(iOS 9, *) {
+        else if #available(iOS 9.0, *) {
             UIApplication.shared.registerUserNotificationSettings(UIUserNotificationSettings(types: [.badge, .sound, .alert], categories: nil))
             UIApplication.shared.registerForRemoteNotifications()
         }
             // iOS 8 support
-        else if #available(iOS 8, *) {
+        else if #available(iOS 8.0, *) {
             UIApplication.shared.registerUserNotificationSettings(UIUserNotificationSettings(types: [.badge, .sound, .alert], categories: nil))
             UIApplication.shared.registerForRemoteNotifications()
         }
@@ -54,6 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // let token = Messaging.messaging().fcmToken
         // print("FCM token: \(token ?? "")")
         
+//        Thread.sleep(forTimeInterval: 2.0)
         return true
     }
     
@@ -69,7 +70,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         // Print full message.
-         print(userInfo)
+        print(userInfo)
     }
     
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable: Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
@@ -88,6 +89,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         completionHandler(UIBackgroundFetchResult.newData)
     }
     // [END receive_message]
+    
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
         print("Unable to register for remote notifications: \(error.localizedDescription)")
     }
@@ -96,10 +98,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // If swizzling is disabled then this function must be implemented so that the APNs token can be paired to
     // the FCM registration token.
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-        print("APNs token retrieved: \(deviceToken)")
+        //        print("APNs token retrieved: \(deviceToken)")
         
         // With swizzling disabled you must set the APNs token here.
-        // Messaging.messaging().apnsToken = deviceToken
+        Messaging.messaging().apnsToken = deviceToken
     }
     
     // [START refresh_token]
@@ -109,7 +111,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             print("InstanceID token: \(refreshedToken)")
             
             // Subscribe to a topic after got a FCM Registration token
-            Messaging.messaging().subscribe(toTopic: "/topics/coffee")
+            Messaging.messaging().subscribe(toTopic: "topic")
         }
         
         // Connect to FCM since connection may have failed when attempted before having a token.
@@ -135,7 +137,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     // [START disconnect_from_fcm]
     func applicationDidEnterBackground(_ application: UIApplication) {
-        Messaging.messaging().disconnect()
+        Messaging.messaging().shouldEstablishDirectChannel = false
         print("Disconnected from FCM.")
     }
     // [END disconnect_from_fcm]
@@ -196,4 +198,3 @@ extension AppDelegate : MessagingDelegate {
     }
     // [END ios_10_data_message]
 }
-

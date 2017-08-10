@@ -7,117 +7,156 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C4BF0F71F38179200AFF2E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BF0F61F38179200AFF2E0 /* AppDelegate.swift */; };
-		2C4BF0F91F38179200AFF2E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4BF0F81F38179200AFF2E0 /* ViewController.swift */; };
-		2C4BF0FC1F38179200AFF2E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BF0FA1F38179200AFF2E0 /* Main.storyboard */; };
-		2C4BF0FE1F38179200AFF2E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BF0FD1F38179200AFF2E0 /* Assets.xcassets */; };
-		2C4BF1011F38179200AFF2E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BF0FF1F38179200AFF2E0 /* LaunchScreen.storyboard */; };
-		2C4BF10A1F383E6D00AFF2E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C4BF1091F383E6D00AFF2E0 /* GoogleService-Info.plist */; };
-		2C4BF10C1F38436100AFF2E0 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4BF10B1F38436100AFF2E0 /* UserNotifications.framework */; };
-		2C4BF10E1F38436C00AFF2E0 /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4BF10D1F38436C00AFF2E0 /* PushKit.framework */; };
-		4BB2CBF61F38A94F00CC6F3D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB2CBF51F38A94F00CC6F3D /* WebKit.framework */; };
-		6F927945D96FDB27D66C608D /* Pods_jinjudr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C741BB877CCDD3140F2FAA4 /* Pods_jinjudr.framework */; };
+		4B9DC9711F3D02B900C7E810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9DC9701F3D02B900C7E810 /* Assets.xcassets */; };
+		4B9DC97F1F3D02B900C7E810 /* jinjudrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DC97E1F3D02B900C7E810 /* jinjudrUITests.swift */; };
+		4B9DC98C1F3D040100C7E810 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9DC98B1F3D040100C7E810 /* Launch Screen.storyboard */; };
+		4B9DC98E1F3D04BE00C7E810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9DC98D1F3D04BE00C7E810 /* Main.storyboard */; };
+		4B9DC9901F3D056F00C7E810 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B9DC98F1F3D056F00C7E810 /* GoogleService-Info.plist */; };
+		4B9DC9921F3D059800C7E810 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DC9911F3D059800C7E810 /* IndicatorView.swift */; };
+		4B9DC9981F3D05FA00C7E810 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9DC9971F3D05FA00C7E810 /* UserNotifications.framework */; };
+		4B9DC99A1F3D063B00C7E810 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9DC9991F3D063B00C7E810 /* WebKit.framework */; };
+		4B9DC99E1F3D085700C7E810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DC99D1F3D085700C7E810 /* ViewController.swift */; };
+		4B9DC9A11F3D094C00C7E810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DC9A01F3D094C00C7E810 /* AppDelegate.swift */; };
+		6113643D6176737A911102EB /* Pods_jinjudr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B18B437423D2A219E5E84DC /* Pods_jinjudr.framework */; };
+		D94F0482F974665471B0B45D /* Pods_jinjudrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FB70A65D342FC113D73915 /* Pods_jinjudrUITests.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4B9DC97B1F3D02B900C7E810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B9DC95E1F3D02B900C7E810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B9DC9651F3D02B900C7E810;
+			remoteInfo = jinjudr;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		1311E9A5DF18C1370D986FA7 /* Pods-jinjudr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jinjudr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jinjudr/Pods-jinjudr.debug.xcconfig"; sourceTree = "<group>"; };
-		2C4BF0F31F38179200AFF2E0 /* jinjudr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jinjudr.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C4BF0F61F38179200AFF2E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C4BF0F81F38179200AFF2E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C4BF0FB1F38179200AFF2E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2C4BF0FD1F38179200AFF2E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C4BF1001F38179200AFF2E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2C4BF1021F38179200AFF2E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2C4BF1081F383AE200AFF2E0 /* jinjudr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = jinjudr.entitlements; sourceTree = "<group>"; };
-		2C4BF1091F383E6D00AFF2E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		2C4BF10B1F38436100AFF2E0 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
-		2C4BF10D1F38436C00AFF2E0 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
-		4BB2CBF51F38A94F00CC6F3D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		5C741BB877CCDD3140F2FAA4 /* Pods_jinjudr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jinjudr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		82A606E7945839EB62942791 /* Pods-jinjudr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jinjudr.release.xcconfig"; path = "Pods/Target Support Files/Pods-jinjudr/Pods-jinjudr.release.xcconfig"; sourceTree = "<group>"; };
+		27FB70A65D342FC113D73915 /* Pods_jinjudrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jinjudrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B5CC3F576073928D696C05 /* Pods-jinjudr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jinjudr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jinjudr/Pods-jinjudr.debug.xcconfig"; sourceTree = "<group>"; };
+		4B9DC9661F3D02B900C7E810 /* jinjudr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jinjudr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9DC9701F3D02B900C7E810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B9DC9751F3D02B900C7E810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9DC97A1F3D02B900C7E810 /* jinjudrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jinjudrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9DC97E1F3D02B900C7E810 /* jinjudrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jinjudrUITests.swift; sourceTree = "<group>"; };
+		4B9DC9801F3D02B900C7E810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B9DC98B1F3D040100C7E810 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4B9DC98D1F3D04BE00C7E810 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4B9DC98F1F3D056F00C7E810 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4B9DC9911F3D059800C7E810 /* IndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
+		4B9DC9971F3D05FA00C7E810 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		4B9DC9991F3D063B00C7E810 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		4B9DC99D1F3D085700C7E810 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B9DC99F1F3D088E00C7E810 /* jinjudr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = jinjudr.entitlements; sourceTree = "<group>"; };
+		4B9DC9A01F3D094C00C7E810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B0C79F73FAA92C1E42937FD /* Pods-jinjudr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jinjudr.release.xcconfig"; path = "Pods/Target Support Files/Pods-jinjudr/Pods-jinjudr.release.xcconfig"; sourceTree = "<group>"; };
+		6B18B437423D2A219E5E84DC /* Pods_jinjudr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jinjudr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34EB1D25210A99EF01C54A2 /* Pods-jinjudrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jinjudrUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jinjudrUITests/Pods-jinjudrUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D48E27D0388F7F39DC57CF44 /* Pods-jinjudrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jinjudrUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-jinjudrUITests/Pods-jinjudrUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2C4BF0F01F38179200AFF2E0 /* Frameworks */ = {
+		4B9DC9631F3D02B900C7E810 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BB2CBF61F38A94F00CC6F3D /* WebKit.framework in Frameworks */,
-				2C4BF10E1F38436C00AFF2E0 /* PushKit.framework in Frameworks */,
-				2C4BF10C1F38436100AFF2E0 /* UserNotifications.framework in Frameworks */,
-				6F927945D96FDB27D66C608D /* Pods_jinjudr.framework in Frameworks */,
+				4B9DC99A1F3D063B00C7E810 /* WebKit.framework in Frameworks */,
+				4B9DC9981F3D05FA00C7E810 /* UserNotifications.framework in Frameworks */,
+				6113643D6176737A911102EB /* Pods_jinjudr.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9DC9771F3D02B900C7E810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94F0482F974665471B0B45D /* Pods_jinjudrUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F695800FE76317E00ACF62F /* Frameworks */ = {
+		4B9DC95D1F3D02B900C7E810 = {
 			isa = PBXGroup;
 			children = (
-				4BB2CBF51F38A94F00CC6F3D /* WebKit.framework */,
-				2C4BF10D1F38436C00AFF2E0 /* PushKit.framework */,
-				2C4BF10B1F38436100AFF2E0 /* UserNotifications.framework */,
-				5C741BB877CCDD3140F2FAA4 /* Pods_jinjudr.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2C4BF0EA1F38179200AFF2E0 = {
-			isa = PBXGroup;
-			children = (
-				2C4BF0F51F38179200AFF2E0 /* jinjudr */,
-				2C4BF0F41F38179200AFF2E0 /* Products */,
-				DB024DD9CE060FC5A8E6C501 /* Pods */,
-				0F695800FE76317E00ACF62F /* Frameworks */,
+				4B9DC9681F3D02B900C7E810 /* jinjudr */,
+				4B9DC97D1F3D02B900C7E810 /* jinjudrUITests */,
+				4B9DC9671F3D02B900C7E810 /* Products */,
+				A9055D71CE9CCEB9CB12A8FB /* Pods */,
+				E9CD01418A7EF242EF592072 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		2C4BF0F41F38179200AFF2E0 /* Products */ = {
+		4B9DC9671F3D02B900C7E810 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C4BF0F31F38179200AFF2E0 /* jinjudr.app */,
+				4B9DC9661F3D02B900C7E810 /* jinjudr.app */,
+				4B9DC97A1F3D02B900C7E810 /* jinjudrUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C4BF0F51F38179200AFF2E0 /* jinjudr */ = {
+		4B9DC9681F3D02B900C7E810 /* jinjudr */ = {
 			isa = PBXGroup;
 			children = (
-				2C4BF1091F383E6D00AFF2E0 /* GoogleService-Info.plist */,
-				2C4BF1081F383AE200AFF2E0 /* jinjudr.entitlements */,
-				2C4BF0F61F38179200AFF2E0 /* AppDelegate.swift */,
-				2C4BF0F81F38179200AFF2E0 /* ViewController.swift */,
-				2C4BF0FA1F38179200AFF2E0 /* Main.storyboard */,
-				2C4BF0FD1F38179200AFF2E0 /* Assets.xcassets */,
-				2C4BF0FF1F38179200AFF2E0 /* LaunchScreen.storyboard */,
-				2C4BF1021F38179200AFF2E0 /* Info.plist */,
+				4B9DC99F1F3D088E00C7E810 /* jinjudr.entitlements */,
+				4B9DC99D1F3D085700C7E810 /* ViewController.swift */,
+				4B9DC98F1F3D056F00C7E810 /* GoogleService-Info.plist */,
+				4B9DC9911F3D059800C7E810 /* IndicatorView.swift */,
+				4B9DC98D1F3D04BE00C7E810 /* Main.storyboard */,
+				4B9DC9701F3D02B900C7E810 /* Assets.xcassets */,
+				4B9DC9A01F3D094C00C7E810 /* AppDelegate.swift */,
+				4B9DC9751F3D02B900C7E810 /* Info.plist */,
+				4B9DC98B1F3D040100C7E810 /* Launch Screen.storyboard */,
 			);
 			path = jinjudr;
 			sourceTree = "<group>";
 		};
-		DB024DD9CE060FC5A8E6C501 /* Pods */ = {
+		4B9DC97D1F3D02B900C7E810 /* jinjudrUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1311E9A5DF18C1370D986FA7 /* Pods-jinjudr.debug.xcconfig */,
-				82A606E7945839EB62942791 /* Pods-jinjudr.release.xcconfig */,
+				4B9DC97E1F3D02B900C7E810 /* jinjudrUITests.swift */,
+				4B9DC9801F3D02B900C7E810 /* Info.plist */,
+			);
+			path = jinjudrUITests;
+			sourceTree = "<group>";
+		};
+		A9055D71CE9CCEB9CB12A8FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45B5CC3F576073928D696C05 /* Pods-jinjudr.debug.xcconfig */,
+				6B0C79F73FAA92C1E42937FD /* Pods-jinjudr.release.xcconfig */,
+				D34EB1D25210A99EF01C54A2 /* Pods-jinjudrUITests.debug.xcconfig */,
+				D48E27D0388F7F39DC57CF44 /* Pods-jinjudrUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9CD01418A7EF242EF592072 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B9DC9991F3D063B00C7E810 /* WebKit.framework */,
+				4B9DC9971F3D05FA00C7E810 /* UserNotifications.framework */,
+				6B18B437423D2A219E5E84DC /* Pods_jinjudr.framework */,
+				27FB70A65D342FC113D73915 /* Pods_jinjudrUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C4BF0F21F38179200AFF2E0 /* jinjudr */ = {
+		4B9DC9651F3D02B900C7E810 /* jinjudr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C4BF1051F38179200AFF2E0 /* Build configuration list for PBXNativeTarget "jinjudr" */;
+			buildConfigurationList = 4B9DC9831F3D02B900C7E810 /* Build configuration list for PBXNativeTarget "jinjudr" */;
 			buildPhases = (
-				7ED55F0C81B971BC95B4A7D7 /* [CP] Check Pods Manifest.lock */,
-				2C4BF0EF1F38179200AFF2E0 /* Sources */,
-				2C4BF0F01F38179200AFF2E0 /* Frameworks */,
-				2C4BF0F11F38179200AFF2E0 /* Resources */,
-				73AAE85FC478E935729FA68A /* [CP] Embed Pods Frameworks */,
-				008F7C193C215154FC148C4B /* [CP] Copy Pods Resources */,
+				9E8ABE5BE6C7AE628CA0E6D1 /* [CP] Check Pods Manifest.lock */,
+				4B9DC9621F3D02B900C7E810 /* Sources */,
+				4B9DC9631F3D02B900C7E810 /* Frameworks */,
+				4B9DC9641F3D02B900C7E810 /* Resources */,
+				2D2905FB1338951EC8A99CEE /* [CP] Embed Pods Frameworks */,
+				631EA9147FB7701B7486B2B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,20 +164,41 @@
 			);
 			name = jinjudr;
 			productName = jinjudr;
-			productReference = 2C4BF0F31F38179200AFF2E0 /* jinjudr.app */;
+			productReference = 4B9DC9661F3D02B900C7E810 /* jinjudr.app */;
 			productType = "com.apple.product-type.application";
+		};
+		4B9DC9791F3D02B900C7E810 /* jinjudrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9DC9861F3D02B900C7E810 /* Build configuration list for PBXNativeTarget "jinjudrUITests" */;
+			buildPhases = (
+				B582B8A69A8E01A64BE0792A /* [CP] Check Pods Manifest.lock */,
+				4B9DC9761F3D02B900C7E810 /* Sources */,
+				4B9DC9771F3D02B900C7E810 /* Frameworks */,
+				4B9DC9781F3D02B900C7E810 /* Resources */,
+				1048D6F2A46E4D759FE2F317 /* [CP] Embed Pods Frameworks */,
+				E118BB48C8DCF907CB21E7CA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B9DC97C1F3D02B900C7E810 /* PBXTargetDependency */,
+			);
+			name = jinjudrUITests;
+			productName = jinjudrUITests;
+			productReference = 4B9DC97A1F3D02B900C7E810 /* jinjudrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2C4BF0EB1F38179200AFF2E0 /* Project object */ = {
+		4B9DC95E1F3D02B900C7E810 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = withstep;
+				ORGANIZATIONNAME = "ByungGu Choi";
 				TargetAttributes = {
-					2C4BF0F21F38179200AFF2E0 = {
+					4B9DC9651F3D02B900C7E810 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 5P9YA2PJ46;
 						ProvisioningStyle = Automatic;
@@ -151,9 +211,15 @@
 							};
 						};
 					};
+					4B9DC9791F3D02B900C7E810 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5P9YA2PJ46;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B9DC9651F3D02B900C7E810;
+					};
 				};
 			};
-			buildConfigurationList = 2C4BF0EE1F38179200AFF2E0 /* Build configuration list for PBXProject "jinjudr" */;
+			buildConfigurationList = 4B9DC9611F3D02B900C7E810 /* Build configuration list for PBXProject "jinjudr" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -161,47 +227,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 2C4BF0EA1F38179200AFF2E0;
-			productRefGroup = 2C4BF0F41F38179200AFF2E0 /* Products */;
+			mainGroup = 4B9DC95D1F3D02B900C7E810;
+			productRefGroup = 4B9DC9671F3D02B900C7E810 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C4BF0F21F38179200AFF2E0 /* jinjudr */,
+				4B9DC9651F3D02B900C7E810 /* jinjudr */,
+				4B9DC9791F3D02B900C7E810 /* jinjudrUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2C4BF0F11F38179200AFF2E0 /* Resources */ = {
+		4B9DC9641F3D02B900C7E810 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C4BF1011F38179200AFF2E0 /* LaunchScreen.storyboard in Resources */,
-				2C4BF10A1F383E6D00AFF2E0 /* GoogleService-Info.plist in Resources */,
-				2C4BF0FE1F38179200AFF2E0 /* Assets.xcassets in Resources */,
-				2C4BF0FC1F38179200AFF2E0 /* Main.storyboard in Resources */,
+				4B9DC98E1F3D04BE00C7E810 /* Main.storyboard in Resources */,
+				4B9DC9901F3D056F00C7E810 /* GoogleService-Info.plist in Resources */,
+				4B9DC9711F3D02B900C7E810 /* Assets.xcassets in Resources */,
+				4B9DC98C1F3D040100C7E810 /* Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9DC9781F3D02B900C7E810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		008F7C193C215154FC148C4B /* [CP] Copy Pods Resources */ = {
+		1048D6F2A46E4D759FE2F317 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jinjudr/Pods-jinjudr-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jinjudrUITests/Pods-jinjudrUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		73AAE85FC478E935729FA68A /* [CP] Embed Pods Frameworks */ = {
+		2D2905FB1338951EC8A99CEE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -223,7 +297,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jinjudr/Pods-jinjudr-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7ED55F0C81B971BC95B4A7D7 /* [CP] Check Pods Manifest.lock */ = {
+		631EA9147FB7701B7486B2B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jinjudr/Pods-jinjudr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E8ABE5BE6C7AE628CA0E6D1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -241,41 +330,72 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B582B8A69A8E01A64BE0792A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-jinjudrUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E118BB48C8DCF907CB21E7CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jinjudrUITests/Pods-jinjudrUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2C4BF0EF1F38179200AFF2E0 /* Sources */ = {
+		4B9DC9621F3D02B900C7E810 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C4BF0F91F38179200AFF2E0 /* ViewController.swift in Sources */,
-				2C4BF0F71F38179200AFF2E0 /* AppDelegate.swift in Sources */,
+				4B9DC9A11F3D094C00C7E810 /* AppDelegate.swift in Sources */,
+				4B9DC99E1F3D085700C7E810 /* ViewController.swift in Sources */,
+				4B9DC9921F3D059800C7E810 /* IndicatorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B9DC9761F3D02B900C7E810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B9DC97F1F3D02B900C7E810 /* jinjudrUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		2C4BF0FA1F38179200AFF2E0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C4BF0FB1F38179200AFF2E0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		4B9DC97C1F3D02B900C7E810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B9DC9651F3D02B900C7E810 /* jinjudr */;
+			targetProxy = 4B9DC97B1F3D02B900C7E810 /* PBXContainerItemProxy */;
 		};
-		2C4BF0FF1F38179200AFF2E0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C4BF1001F38179200AFF2E0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2C4BF1031F38179200AFF2E0 /* Debug */ = {
+		4B9DC9811F3D02B900C7E810 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -322,11 +442,10 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		2C4BF1041F38179200AFF2E0 /* Release */ = {
+		4B9DC9821F3D02B900C7E810 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -365,14 +484,13 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		2C4BF1061F38179200AFF2E0 /* Debug */ = {
+		4B9DC9841F3D02B900C7E810 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1311E9A5DF18C1370D986FA7 /* Pods-jinjudr.debug.xcconfig */;
+			baseConfigurationReference = 45B5CC3F576073928D696C05 /* Pods-jinjudr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = jinjudr/jinjudr.entitlements;
@@ -381,15 +499,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.withstep.jinjudr;
-				PRODUCT_NAME = jinjudr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		2C4BF1071F38179200AFF2E0 /* Release */ = {
+		4B9DC9851F3D02B900C7E810 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82A606E7945839EB62942791 /* Pods-jinjudr.release.xcconfig */;
+			baseConfigurationReference = 6B0C79F73FAA92C1E42937FD /* Pods-jinjudr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = jinjudr/jinjudr.entitlements;
@@ -398,34 +515,72 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.withstep.jinjudr;
-				PRODUCT_NAME = jinjudr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4B9DC9871F3D02B900C7E810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D34EB1D25210A99EF01C54A2 /* Pods-jinjudrUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5P9YA2PJ46;
+				INFOPLIST_FILE = jinjudrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.withstep.jinjudrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = jinjudr;
+			};
+			name = Debug;
+		};
+		4B9DC9881F3D02B900C7E810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D48E27D0388F7F39DC57CF44 /* Pods-jinjudrUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5P9YA2PJ46;
+				INFOPLIST_FILE = jinjudrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.withstep.jinjudrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = jinjudr;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C4BF0EE1F38179200AFF2E0 /* Build configuration list for PBXProject "jinjudr" */ = {
+		4B9DC9611F3D02B900C7E810 /* Build configuration list for PBXProject "jinjudr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C4BF1031F38179200AFF2E0 /* Debug */,
-				2C4BF1041F38179200AFF2E0 /* Release */,
+				4B9DC9811F3D02B900C7E810 /* Debug */,
+				4B9DC9821F3D02B900C7E810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2C4BF1051F38179200AFF2E0 /* Build configuration list for PBXNativeTarget "jinjudr" */ = {
+		4B9DC9831F3D02B900C7E810 /* Build configuration list for PBXNativeTarget "jinjudr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C4BF1061F38179200AFF2E0 /* Debug */,
-				2C4BF1071F38179200AFF2E0 /* Release */,
+				4B9DC9841F3D02B900C7E810 /* Debug */,
+				4B9DC9851F3D02B900C7E810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B9DC9861F3D02B900C7E810 /* Build configuration list for PBXNativeTarget "jinjudrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B9DC9871F3D02B900C7E810 /* Debug */,
+				4B9DC9881F3D02B900C7E810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2C4BF0EB1F38179200AFF2E0 /* Project object */;
+	rootObject = 4B9DC95E1F3D02B900C7E810 /* Project object */;
 }

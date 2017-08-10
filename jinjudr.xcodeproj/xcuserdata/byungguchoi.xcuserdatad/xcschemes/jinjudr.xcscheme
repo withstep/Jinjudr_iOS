@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2C4BF0F21F38179200AFF2E0"
+               BlueprintIdentifier = "4B9DC9651F3D02B900C7E810"
                BuildableName = "jinjudr.app"
                BlueprintName = "jinjudr"
                ReferencedContainer = "container:jinjudr.xcodeproj">
@@ -28,11 +28,21 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4B9DC9791F3D02B900C7E810"
+               BuildableName = "jinjudrUITests.xctest"
+               BlueprintName = "jinjudrUITests"
+               ReferencedContainer = "container:jinjudr.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2C4BF0F21F38179200AFF2E0"
+            BlueprintIdentifier = "4B9DC9651F3D02B900C7E810"
             BuildableName = "jinjudr.app"
             BlueprintName = "jinjudr"
             ReferencedContainer = "container:jinjudr.xcodeproj">
@@ -55,7 +65,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2C4BF0F21F38179200AFF2E0"
+            BlueprintIdentifier = "4B9DC9651F3D02B900C7E810"
             BuildableName = "jinjudr.app"
             BlueprintName = "jinjudr"
             ReferencedContainer = "container:jinjudr.xcodeproj">
@@ -74,7 +84,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2C4BF0F21F38179200AFF2E0"
+            BlueprintIdentifier = "4B9DC9651F3D02B900C7E810"
             BuildableName = "jinjudr.app"
             BlueprintName = "jinjudr"
             ReferencedContainer = "container:jinjudr.xcodeproj">

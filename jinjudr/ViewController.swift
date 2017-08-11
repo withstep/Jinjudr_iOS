@@ -8,12 +8,13 @@
 
 import UIKit
 import WebKit
+import Firebase
 
 var myContext = 0
 
 class ViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
     
-    var myURL = URL(string: "http://www.jinjudr.or.kr/app/index.php")!
+    var myURL = "http://www.jinjudr.or.kr/app/index.php"
     var webView: WKWebView!
     var activityIndicator = UIActivityIndicatorView()
     
@@ -45,7 +46,11 @@ class ViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
         
         IndicatorView.shared.show()
         
-        var webRequest = URLRequest(url: myURL)
+        let token = InstanceID.instanceID().token()
+        print("Token : " + token!)
+        myURL = myURL + "?device=iOS&iostoken=" + token!
+        let webURL = URL(string: myURL)!
+        var webRequest = URLRequest(url: webURL)
         var cookies = HTTPCookie.requestHeaderFields(with: HTTPCookieStorage.shared.cookies(for: webRequest.url!)!)
         if let value = cookies["Cookie"] {
             webRequest.addValue(value, forHTTPHeaderField: "Cookie")
@@ -150,9 +155,9 @@ class ViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
     
     func homeBarButtonTapped() {
         
-        let webRequest = URLRequest(url: self.myURL);
-        self.webView.load(webRequest)
         
+        let webRequest = URLRequest(url: URL(string: myURL)!);
+        self.webView.load(webRequest)
     }
     
     func refreshBarButtonTapped() {

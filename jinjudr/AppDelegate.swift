@@ -111,7 +111,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             print("InstanceID token: \(refreshedToken)")
             
             // Subscribe to a topic after got a FCM Registration token
-            Messaging.messaging().subscribe(toTopic: "topic")
+            Messaging.messaging().subscribe(toTopic: "jinjudr")
         }
         
         // Connect to FCM since connection may have failed when attempted before having a token.

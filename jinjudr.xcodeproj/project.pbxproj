@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4B9DC9711F3D02B900C7E810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9DC9701F3D02B900C7E810 /* Assets.xcassets */; };
-		4B9DC97F1F3D02B900C7E810 /* jinjudrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DC97E1F3D02B900C7E810 /* jinjudrUITests.swift */; };
 		4B9DC98C1F3D040100C7E810 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9DC98B1F3D040100C7E810 /* Launch Screen.storyboard */; };
 		4B9DC98E1F3D04BE00C7E810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9DC98D1F3D04BE00C7E810 /* Main.storyboard */; };
 		4B9DC9901F3D056F00C7E810 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B9DC98F1F3D056F00C7E810 /* GoogleService-Info.plist */; };
@@ -17,27 +16,15 @@
 		4B9DC99A1F3D063B00C7E810 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9DC9991F3D063B00C7E810 /* WebKit.framework */; };
 		4B9DC99E1F3D085700C7E810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DC99D1F3D085700C7E810 /* ViewController.swift */; };
 		4B9DC9A11F3D094C00C7E810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9DC9A01F3D094C00C7E810 /* AppDelegate.swift */; };
+		4B9DC9A41F3D123400C7E810 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9DC9A21F3D114300C7E810 /* CryptoSwift.framework */; };
 		6113643D6176737A911102EB /* Pods_jinjudr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B18B437423D2A219E5E84DC /* Pods_jinjudr.framework */; };
-		D94F0482F974665471B0B45D /* Pods_jinjudrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FB70A65D342FC113D73915 /* Pods_jinjudrUITests.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4B9DC97B1F3D02B900C7E810 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4B9DC95E1F3D02B900C7E810 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4B9DC9651F3D02B900C7E810;
-			remoteInfo = jinjudr;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		27FB70A65D342FC113D73915 /* Pods_jinjudrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jinjudrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B5CC3F576073928D696C05 /* Pods-jinjudr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jinjudr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jinjudr/Pods-jinjudr.debug.xcconfig"; sourceTree = "<group>"; };
 		4B9DC9661F3D02B900C7E810 /* jinjudr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jinjudr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9DC9701F3D02B900C7E810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B9DC9751F3D02B900C7E810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4B9DC97A1F3D02B900C7E810 /* jinjudrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jinjudrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B9DC97E1F3D02B900C7E810 /* jinjudrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jinjudrUITests.swift; sourceTree = "<group>"; };
 		4B9DC9801F3D02B900C7E810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B9DC98B1F3D040100C7E810 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -49,6 +36,7 @@
 		4B9DC99D1F3D085700C7E810 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4B9DC99F1F3D088E00C7E810 /* jinjudr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = jinjudr.entitlements; sourceTree = "<group>"; };
 		4B9DC9A01F3D094C00C7E810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B9DC9A21F3D114300C7E810 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = "../../../../Library/Developer/Xcode/DerivedData/jinjudr-hdckicrkzacrwwcjpclqceouyxzq/Build/Products/Debug-iphoneos/CryptoSwift/CryptoSwift.framework"; sourceTree = "<group>"; };
 		6B0C79F73FAA92C1E42937FD /* Pods-jinjudr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jinjudr.release.xcconfig"; path = "Pods/Target Support Files/Pods-jinjudr/Pods-jinjudr.release.xcconfig"; sourceTree = "<group>"; };
 		6B18B437423D2A219E5E84DC /* Pods_jinjudr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jinjudr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34EB1D25210A99EF01C54A2 /* Pods-jinjudrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jinjudrUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jinjudrUITests/Pods-jinjudrUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -60,17 +48,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B9DC9A41F3D123400C7E810 /* CryptoSwift.framework in Frameworks */,
 				4B9DC99A1F3D063B00C7E810 /* WebKit.framework in Frameworks */,
 				4B9DC9981F3D05FA00C7E810 /* UserNotifications.framework in Frameworks */,
 				6113643D6176737A911102EB /* Pods_jinjudr.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B9DC9771F3D02B900C7E810 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D94F0482F974665471B0B45D /* Pods_jinjudrUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				4B9DC9661F3D02B900C7E810 /* jinjudr.app */,
-				4B9DC97A1F3D02B900C7E810 /* jinjudrUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,10 +116,10 @@
 		E9CD01418A7EF242EF592072 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4B9DC9A21F3D114300C7E810 /* CryptoSwift.framework */,
 				4B9DC9991F3D063B00C7E810 /* WebKit.framework */,
 				4B9DC9971F3D05FA00C7E810 /* UserNotifications.framework */,
 				6B18B437423D2A219E5E84DC /* Pods_jinjudr.framework */,
-				27FB70A65D342FC113D73915 /* Pods_jinjudrUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,27 +147,6 @@
 			productReference = 4B9DC9661F3D02B900C7E810 /* jinjudr.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4B9DC9791F3D02B900C7E810 /* jinjudrUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4B9DC9861F3D02B900C7E810 /* Build configuration list for PBXNativeTarget "jinjudrUITests" */;
-			buildPhases = (
-				B582B8A69A8E01A64BE0792A /* [CP] Check Pods Manifest.lock */,
-				4B9DC9761F3D02B900C7E810 /* Sources */,
-				4B9DC9771F3D02B900C7E810 /* Frameworks */,
-				4B9DC9781F3D02B900C7E810 /* Resources */,
-				1048D6F2A46E4D759FE2F317 /* [CP] Embed Pods Frameworks */,
-				E118BB48C8DCF907CB21E7CA /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4B9DC97C1F3D02B900C7E810 /* PBXTargetDependency */,
-			);
-			name = jinjudrUITests;
-			productName = jinjudrUITests;
-			productReference = 4B9DC97A1F3D02B900C7E810 /* jinjudrUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,12 +170,6 @@
 							};
 						};
 					};
-					4B9DC9791F3D02B900C7E810 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 5P9YA2PJ46;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 4B9DC9651F3D02B900C7E810;
-					};
 				};
 			};
 			buildConfigurationList = 4B9DC9611F3D02B900C7E810 /* Build configuration list for PBXProject "jinjudr" */;
@@ -233,7 +186,6 @@
 			projectRoot = "";
 			targets = (
 				4B9DC9651F3D02B900C7E810 /* jinjudr */,
-				4B9DC9791F3D02B900C7E810 /* jinjudrUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -250,31 +202,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B9DC9781F3D02B900C7E810 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1048D6F2A46E4D759FE2F317 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jinjudrUITests/Pods-jinjudrUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D2905FB1338951EC8A99CEE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,12 +212,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-jinjudr/Pods-jinjudr-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -330,39 +262,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B582B8A69A8E01A64BE0792A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-jinjudrUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E118BB48C8DCF907CB21E7CA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jinjudrUITests/Pods-jinjudrUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -376,23 +275,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B9DC9761F3D02B900C7E810 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4B9DC97F1F3D02B900C7E810 /* jinjudrUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4B9DC97C1F3D02B900C7E810 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4B9DC9651F3D02B900C7E810 /* jinjudr */;
-			targetProxy = 4B9DC97B1F3D02B900C7E810 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4B9DC9811F3D02B900C7E810 /* Debug */ = {
@@ -496,7 +379,7 @@
 				CODE_SIGN_ENTITLEMENTS = jinjudr/jinjudr.entitlements;
 				DEVELOPMENT_TEAM = 5P9YA2PJ46;
 				INFOPLIST_FILE = jinjudr/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.withstep.jinjudr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,41 +395,11 @@
 				CODE_SIGN_ENTITLEMENTS = jinjudr/jinjudr.entitlements;
 				DEVELOPMENT_TEAM = 5P9YA2PJ46;
 				INFOPLIST_FILE = jinjudr/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.co.withstep.jinjudr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		4B9DC9871F3D02B900C7E810 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D34EB1D25210A99EF01C54A2 /* Pods-jinjudrUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 5P9YA2PJ46;
-				INFOPLIST_FILE = jinjudrUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kr.co.withstep.jinjudrUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = jinjudr;
-			};
-			name = Debug;
-		};
-		4B9DC9881F3D02B900C7E810 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D48E27D0388F7F39DC57CF44 /* Pods-jinjudrUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 5P9YA2PJ46;
-				INFOPLIST_FILE = jinjudrUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kr.co.withstep.jinjudrUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = jinjudr;
 			};
 			name = Release;
 		};
@@ -567,15 +420,6 @@
 			buildConfigurations = (
 				4B9DC9841F3D02B900C7E810 /* Debug */,
 				4B9DC9851F3D02B900C7E810 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4B9DC9861F3D02B900C7E810 /* Build configuration list for PBXNativeTarget "jinjudrUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4B9DC9871F3D02B900C7E810 /* Debug */,
-				4B9DC9881F3D02B900C7E810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
